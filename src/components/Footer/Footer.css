@@ -1,0 +1,53 @@
+#footer {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+  text-align: start;
+  letter-spacing: normal;
+  background-color: #3a3a32;
+  color: #fff;
+  min-height: 250px;
+  padding: 40px 0;
+}
+
+#footer .sns-icon {
+  color: #ff8000;
+}
+
+#footer .sns-icon .footer-icons {
+  text-align: center;
+  margin: 6px auto;
+}
+
+#footer .sns-icon .footer-icons .fa{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin: 5px 3px;
+  background-color: #ff8000;
+}
+
+#footer p {
+  font-size: 12px;
+  font-weight: 100;
+  color: #dadada;
+}
+
+#footer h5 {
+  font-weight: bold;
+  color: #ff8000;
+  margin: 0 0 10px 0;
+}
+
+.copyRight {
+  padding: 6px 0;
+  background-color: #ff8000;
+  color: #fff;
+  font-size: 11px;
+}

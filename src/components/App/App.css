@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('//travelflan-cdn.azureedge.net/assets/plugins/bootstrap/3.3.5/fonts/glyphicons-halflings-regular.eot');
+    src: url('//travelflan-cdn.azureedge.net/assets/plugins/bootstrap/3.3.5/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),url('/assets/plugins/bootstrap/3.3.5/fonts/glyphicons-halflings-regular.woff') format('woff'),url('/assets/plugins/bootstrap/3.3.5/fonts/glyphicons-halflings-regular.ttf') format('truetype'),url('/assets/plugins/bootstrap/3.3.5/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+@font-face {
+    font-family: 'HYQiHei-45S';
+    src: url('/assets/fonts/HYQiHei-45S.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'HYQiHei-65S';
+    src: url('/assets/fonts/HYQiHei-65S.ttf') format('truetype');
+}
+
+.App {
+  text-align: center;
+  font-weight: normal;
+  color: #424242;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left,rgba(238,238,238,0),rgba(238,238,238,.75),rgba(238,238,238,0))
+}
+
+.slogan {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0;
+  border-bottom: 1px dashed #ccc;
+}
+
+h3.desHeader {
+  color: #ff8000;
+  font-size: 36px;
+}
+
+.desMsg {
+  padding-bottom: 10px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

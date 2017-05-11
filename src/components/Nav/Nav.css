@@ -1,0 +1,82 @@
+#header .navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 200;
+}
+
+.navbar-toggle {
+  border: 1px solid #fff;
+}
+
+.navbar-brand .logo {
+  margin-top: -5px;
+  width: 220px;
+}
+
+.navbar-inverse {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: #fff;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+  background-color: transparent;
+}
+
+.navbar-wrapper .container-fluid .navbar-collapse ul li a {
+  text-align: left;
+  background: transparent;
+  color: #ffffff;
+  font-weight: 100;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu {
+  background: rgba(0, 0, 0, 0.6)
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
+  color: #f4ad49;
+}
+
+.navbar-wrapper .container-fluid .dropdown ul.dropdown-menu {
+  vertical-align: middle;
+  z-index: 1000;
+  border: 0 solid #ff8000;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+  background-color: transparent;
+}
+
+.navbar-wrapper .container-fluid .navbar-collapse ul li a:hover {
+  background: transparent;
+  color: #f4ad49;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-brand .logo {
+    width: 180px;
+  }
+
+  .navbar-collapse > ul {
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  .navbar-inverse .navbar-nav .open .dropdown-menu {
+    background-color: transparent;
+  }
+}
+

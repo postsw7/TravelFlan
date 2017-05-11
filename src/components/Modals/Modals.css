@@ -1,0 +1,124 @@
+#loginModal {
+  padding: 0;
+  height: 553px;
+}
+
+#loginModal .close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 30px;
+  font-weight: 700;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .2;
+  z-index: 10000;
+}
+
+.row .col h5 {
+  text-align: center;
+}
+
+.form-control:hover, .form-control:focus {
+  border: 1px solid #ff8000;
+}
+
+.promoModal .modal-dialog {
+  width: 66%;
+  margin: 30px auto;
+}
+
+.promo.modal-body {
+  padding: 0;
+  width: 100%;
+}
+
+.promo.modal-body .close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 30px;
+  font-weight: 700;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .2;
+  z-index: 10000;
+}
+
+h5 span {
+  cursor: pointer;
+}
+
+.main-section .profile {
+  padding: 35px 15px;
+  text-align: center;
+}
+
+.main-section .profile img {
+  width: 100px;
+  margin-bottom: 10px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.main-section .login-field {
+  padding: 0 35px;
+  margin-top: 15px;
+  text-align: left;
+}
+
+.main-section .checkbox-inline {
+  top: -10px;
+}
+
+.main-section .login-field .btns {
+  width: 100%;
+}
+
+#loginModal .tips-section {
+  color: #fff;
+  text-shadow: 0 2px 3px #333;
+  width: 50%;
+  background: url(../../img/banner_001.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 350px;
+  padding: 120px 40px 40px 40px;
+  font-size: 18px;
+}
+
+#user-login {
+  background-color: #ff5a60;
+  width: 100%;
+  color: #fff;
+  border-color: transparent;
+  margin-bottom: 5px;
+}
+
+#fb-login, #resetPwd {
+  width: 100%;
+}
+
+#fb-login:hover, #resetPwd:hover {
+  background-color: #286090;
+  border-color: #204d74;
+}
+
+@media screen and (max-width: 768px) {
+  .promoModal .modal-dialog, .modal-dialog {
+    width: 96%;
+    margin: 30px auto;
+  }
+}
+
+@media screen and (max-width: 413px) {
+  .promoModal .modal-dialog, .modal-dialog {
+    width: 94%;
+    margin: 30px auto;
+  }
+
+  .modal-content {
+    color: #fff;
+    background: rgba(0,0,0,0.4);
+  }
+}

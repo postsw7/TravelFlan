@@ -1,0 +1,100 @@
+.thingsTodo .row {
+  padding: 0;
+  margin: 0;
+}
+
+.thingsTodo .tours {
+  margin-bottom: 10px;
+  padding: 5px 10px;
+}
+
+.thingsTodo .tourDetail {
+  position: relative;
+  border: 1px solid #d8d8d8;
+  border-radius: 6px;
+  width: 100%;
+  min-height: 240px;
+  max-height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.thingsTodo .tourDetail:hover {
+  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;
+}
+
+.thingsTodo .tourDetail .tourName {
+  background: -webkit-gradient(linear,0 0,0 100%,from(transparent),to(#212121));
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  padding: 0 10px 10px 10px;
+}
+
+.thingsTodo .tourDetail h3 {
+  text-align: left;
+  margin: 8px 0;
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.thingsTodo .tourDetail .tourPrice {
+  background: -webkit-gradient(linear,0 0,100% 0,from(transparent),to(#212121));
+  position: absolute;
+  padding: 5px 10px;
+  right: 0;
+  top: 0;
+  color: #fff;
+}
+
+.thingsTodo .tourDetail .tourPrice .notdiscounted {
+  text-align: right;
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+  text-decoration: line-through;
+  color: #efefef;
+  font-weight: 300;
+}
+
+.thingsTodo .tourDetail .tourPrice .discounted {
+  font-size: 20px;
+  text-align: right;
+  font-weight: 300;
+}
+
+.thingsTodo .tourDetail .tourLocationIcon {
+  position: absolute;
+  font-size: 16px;
+  top: 10px;
+  left: 10px;
+  color: #ff8000;
+}
+
+.detailOne {
+  background-image: url(../../img/marioGokart.jpg);
+}
+
+.detailTwo {
+  background-image: url(../../img/fuji_peach.jpg);
+}
+
+.detailThree {
+  background-image: url(../../img/haneda_airport.jpg);
+}
+
+.detailFour {
+  background-image: url(../../img/fuji_para.jpg);
+}
+
+.detailFive {
+  background-image: url(../../img/offroadcar.jpg);
+}
+
+.detailSix {
+  background-image: url(../../img/watermelon.jpg);
+}
+

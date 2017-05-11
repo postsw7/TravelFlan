@@ -1,0 +1,158 @@
+#bannerShow .item img {
+  width: 120%;
+  min-height: 300px;
+  max-height: 500px;
+}
+
+#bannerShow .carousel-control.left {
+  display: none;
+}
+
+#bannerShow .carousel-control.right {
+  display: none;
+}
+
+#main .carousel-caption.inside {
+  position: absolute;
+  top: 15%;
+  left: 1.8%;
+  right: auto;
+  width: 96.66666666666666%;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+#main .carousel-caption.inside h1, p {
+  letter-spacing: 1px;
+}
+
+#main .carousel-caption.inside h1 {
+  font-size: 64px;
+  font-weight: 500;
+}
+
+#main .carousel-caption.inside p {
+  font-size: 22px;
+}
+
+#main .carousel-caption .dropdown #dropdownMenu {
+  width: 180px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 auto;
+  margin-top: 20px;
+  background: rgba(0,0,0,0.6);
+  cursor: pointer;
+  color: #fff;
+  z-index: 100;
+  border: 0;
+  border-radius: 1px;
+}
+
+#main .carousel-caption .dropdown #dropdownMenu:hover {
+  background: #ff8000;
+}
+
+#main .carousel-caption .dropdown #dropdownMenu p {
+  display: inline;
+}
+
+#main .carousel-caption .dropdown ul.dropdown-menu {
+  min-width: 300px;
+  max-width: 33%;
+  padding: 8px;
+  margin: 3px auto 0 auto;
+  left: -30%;
+  right: 0;
+  vertical-align: middle;
+  z-index: 1000;
+  border: 0 solid #ff8000;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+
+#main .carousel-caption .dropdown ul.dropdown-menu li {
+  min-width: 50%;
+  max-width: 150px;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  z-index: 1000;
+}
+
+#main .carousel-caption .dropdown ul.dropdown-menu a {
+  padding: 8px;
+  color: #fff;
+  font-weight: 100;
+  z-index: 1000;
+}
+
+#main .carousel-caption .dropdown ul.dropdown-menu a:hover {
+  background-color: #ff8000;
+}
+
+.flowClearance {
+  clear: both;
+  float: none;
+  height: 1px;
+  overflow: hidden;
+  visibility: hidden;
+  width: 1px;
+}
+
+@media screen and (max-width: 767px) {
+  #bannerShow .item img {
+    min-width: 120%;
+    min-height: 400px;
+  }
+
+  #main .carousel-caption.inside h1 {
+    font-size: 42px;
+    font-weight: 500;
+  }
+
+  #main .carousel-caption.inside p {
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  #main .carousel-caption .dropdown #dropdownMenu {
+    width: 180px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: rgba(0,0,0,0.6);
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 413px) {
+  #bannerShow .item img {
+    min-width: 250%;
+    min-height: 350px;
+  }
+
+  #main .carousel-caption.inside h1 {
+    font-size: 28px;
+    font-weight: 500;
+  }
+
+  #main .carousel-caption.inside p {
+    font-size: 12px;
+    font-weight: 300;
+  }
+
+  #main .carousel-caption .dropdown #dropdownMenu {
+    width: 180px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: rgba(0,0,0,0.6);
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,33 @@
+.promise {
+  margin: 0;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #efefef;
+}
+
+.promise .container {
+  width: 100%;
+}
+
+.promise h1 {
+  font-size: 36px;
+  margin: 0;
+  font-weight: 600;
+  padding: 0 0 30px 0;
+}
+
+.promise h4 {
+  padding: 10px 0 0 0;
+  font-weight: 600;
+}
+
+.promise .row {
+  padding: 0;
+  margin: 0;
+}
+
+.promise .row .tileIcon {
+  padding: 20px 20px;
+  margin: 0;
+  min-height: 80px;
+}
